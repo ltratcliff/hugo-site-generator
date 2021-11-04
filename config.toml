@@ -1,0 +1,33 @@
+baseURL = "http://ltratcliff.com/"
+languageCode = "en-us"
+title = "Tom's site"
+theme="ananke"
+
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  background_color_class = "bg-black"
+  recent_posts_number = 3

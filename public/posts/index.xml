@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tom&#39;s site</title>
+    <link>http://ltratcliff.com/posts/</link>
+    <description>Recent content in Posts on Tom&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Nov 2021 15:11:42 -0400</lastBuildDate><atom:link href="http://ltratcliff.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offline Go Modules</title>
+      <link>http://ltratcliff.com/posts/offline-go-modules/</link>
+      <pubDate>Thu, 04 Nov 2021 15:11:42 -0400</pubDate>
+      
+      <guid>http://ltratcliff.com/posts/offline-go-modules/</guid>
+      <description>golang offline module dependencies download Using go mod vendor 0 - With an existing module  copy go.mod and go.sum files from the offline PC to the internet PC  0bis - New module  create a folder on the internet PC create a go module : go mod init test  1 - Download dependencies via vendor folder  create a offline_modules.go file :  package offline_modules func main() {}  add the dependencies you want to download (use _) :  package offline_modules import ( _ &amp;quot;github.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://ltratcliff.com/posts/first-post/</link>
+      <pubDate>Thu, 04 Nov 2021 14:45:52 -0400</pubDate>
+      
+      <guid>http://ltratcliff.com/posts/first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
