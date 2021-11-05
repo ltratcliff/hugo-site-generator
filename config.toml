@@ -1,10 +1,10 @@
 baseURL = "http://ltratcliff.com/"
 languageCode = "en-us"
-title = "Tom's site"
+title = "TR"
 theme="ananke"
 
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 enableRobotsTXT = true
 
 
@@ -15,19 +15,21 @@ enableRobotsTXT = true
 
 [params]
   author = ""
-  favicon = ""
-  site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
+  favicon = "images/logo.png"
+  #site_logo = "images/logo.png"
+  description = "Stuff and things"
+  facebook = "https://facebook.com/ltratcliff"
+  twitter = "https://twitter.com/ltratcliff"
   instagram = ""
   youtube = ""
-  github = ""
+  github = "https://github.com/ltratcliff/"
   gitlab = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/ltratcliff/"
   mastodon = ""
   slack = ""
   stackoverflow = ""
   rss = ""
   background_color_class = "bg-black"
+  #body_classes = "avenir bg-moon-gray"
+  featured_image = "/images/sugarshack.jpg"
   recent_posts_number = 3
