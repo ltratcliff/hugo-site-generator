@@ -3,6 +3,8 @@ title: "Offline Go Modules"
 date: 2021-11-04T15:11:42-04:00
 draft: true
 toc: true
+tags: ["golang", "modules", "offline"]
+categories: ["golang"]
 ---
 
 # Using go mod vendor
