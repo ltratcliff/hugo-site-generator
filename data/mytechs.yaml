@@ -1,0 +1,36 @@
+techs:
+  - Angular
+  - Ansible
+  - Bash
+  - C
+  - Dash
+  - Databricks
+  - DeltaLake
+  - D3
+  - ELK (Elastic, Logstash, Kibana)
+  - Golang
+  - Grafana
+  - Helm
+  - Hugo
+  - HTML
+  - Javascript
+  - JSON
+  - Jupyter
+  - Kubernetes
+  - Loki
+  - Matplotlib
+  - MySQL/MariaDB
+  - Nodejs
+  - Numpy
+  - Pandas
+  - Prometheus
+  - Python
+  - PySpark
+  - RStudio
+  - RShiny
+  - Rstudio Package Manager
+  - Splunk
+  - SQL
+  - Teraform
+  - TypeScript
+  - YAML
