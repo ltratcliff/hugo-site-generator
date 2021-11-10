@@ -1,11 +1,16 @@
-<div id="theme-tagcloud" class="col-sm-12" style="margin-bottom: 15px;">
-  {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-  {{ $v1 := where $tags "Count" ">=" 3 }}
-  {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss" "stuff") }}
-  {{ range $v2 }}
-  {{ if .Term }}
-  {{ $tagURL := printf "tags/%s" .Term | relURL }}
-  <a href="{{ $tagURL }}" class="btn btn-default" role="button" style="text-transform: uppercase; font-size: 12px; padding-right: 5px; padding-left: 5px;" >{{ .Term }} <span class="badge">({{ .Count }})</span></a>
+<script>
+  let tagArray = new Array();
+  {{ range $key, $value := .Site.Data.mytechs.techs }}
+	tagArray.push([{{ $key }}, {{ $value }}])
   {{ end }}
-  {{ end }}
-</div>
+</script>
+<script src="/js/wordcloud2.js"></script>
+
+<div id="tag-wrapper" style="width: 100%; height: 400px;"></div>
+<script>
+    WordCloud(document.querySelector("#tag-wrapper"), {
+        list: tagArray,
+	drawOutOfBounds: false,
+        shrinkToFit: true,
+    });
+</script>
