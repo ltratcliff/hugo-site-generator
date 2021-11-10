@@ -2,6 +2,7 @@
 title: "First Post"
 date: 2021-11-04T14:45:52-04:00
 draft: true
+author: Tom Ratcliff
 ---
 
 # About me
@@ -25,7 +26,7 @@ to help automate installations, configurations, updates, patches, etc. etc.
 Containers and Orchestration for the win! I live on the Fedora SilverBlue OS. Utilize podman and kubectl for anything I can.
 
 # Tech
-Way too many to list... I'll let Hugo do it for me ;)
+Way too many to list... I'll let Hugo do it for me :wink:
 
 {{< tech >}}
 
