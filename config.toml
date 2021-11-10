@@ -6,6 +6,7 @@ theme="ananke"
 SectionPagesMenu = "main"
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 enableRobotsTXT = true
+enableEmoji = true
 
 
 [sitemap]
@@ -14,10 +15,10 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  author = ""
+  author = "Tom Ratcliff"
   favicon = "images/logo.png"
   #site_logo = "images/logo.png"
-  description = "Random ideas during a technical journey"
+  description = "A Blog on Software Experiences, Troubleshooting, Fix Actions and More!"
   facebook = "https://facebook.com/ltratcliff"
   twitter = "https://twitter.com/ltratcliff"
   instagram = ""
@@ -28,7 +29,7 @@ enableRobotsTXT = true
   mastodon = ""
   slack = ""
   stackoverflow = ""
-  rss = ""
+  rss = "https://ltratcliff.com/index.xml"
   background_color_class = "bg-black"
   #body_classes = "avenir bg-moon-gray"
   featured_image = "/images/sugarshack.jpg"
