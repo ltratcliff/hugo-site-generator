@@ -1,0 +1,47 @@
+techs:
+   Angular: 40
+   Ansible: 50
+   AWS: 20
+   Bash: 20
+   C: 20
+   D3: 10
+   Dash: 10
+   Databricks: 30
+   Debian: 10
+   DeltaLake: 20
+   Docker: 40
+   ELK (Elastic, Logstash, Kibana): 10
+   Fedora: 30
+   Golang: 60
+   Grafana: 30
+   Helm: 30
+   Hugo: 30 
+   HTML: 10
+   Java: 40
+   Javascript: 20
+   JSON: 10
+   Jupyter: 20
+   Kubernetes: 40
+   Loki: 10
+   Matplotlib: 10
+   MySQL/MariaDB: 10
+   Nodejs: 10
+   Numpy: 10
+   OpenShift: 20
+   Pandas: 10
+   Perl: 20
+   Podman: 30
+   Prometheus: 30
+   Python: 70
+   PySpark: 30
+   RHEL: 50
+   RStudio: 20
+   RShiny: 20
+   Rstudio Package Manager: 10
+   SilverBlue: 10
+   Splunk: 20
+   SQL: 10
+   Teraform: 10
+   Tower: 10
+   TypeScript: 20
+   YAML: 10

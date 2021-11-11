@@ -1,0 +1,25 @@
+<h5>Shuffled</h5>
+{{ (seq 1 5) | shuffle }}
+
+{{ $array := (seq 1 5) }}
+{{ $list := slice "one" "two" "three" }}
+
+<h5>Range over array</h5>
+{{ range $array }}
+ {{ . }}
+{{ end }}
+
+<h5>Range with index</h5>
+{{ range $elem_index, $elem_val := $array }}
+ <p>
+ {{ $elem_index }} - {{ $elem_val }}
+ </p>
+{{ end }}
+
+<h5>Slice</h5>
+{{ $list }}
+
+<h5>Range Slice</h5>
+{{ range $list }}
+  {{ . }}
+{{ end }}

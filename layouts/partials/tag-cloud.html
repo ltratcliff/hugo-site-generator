@@ -1,0 +1,16 @@
+<script>
+  let tagArray = new Array();
+  {{ range $key, $value := .Site.Data.mytechs.techs }}
+	tagArray.push([{{ $key }}, {{ $value }}])
+  {{ end }}
+</script>
+<script src="/js/wordcloud2.js"></script>
+
+<div id="tag-wrapper" style="width: 100%; height: 400px;"></div>
+<script>
+    WordCloud(document.querySelector("#tag-wrapper"), {
+        list: tagArray,
+	drawOutOfBounds: false,
+        shrinkToFit: true,
+    });
+</script>

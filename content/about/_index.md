@@ -1,8 +1,7 @@
 ---
-title: "First Post"
-date: 2021-11-04T14:45:52-04:00
+title: "About"
+date: 2021-11-08T12:25:00-05:00
 draft: true
-author: Tom Ratcliff
 ---
 
 # About me
@@ -29,5 +28,6 @@ Containers and Orchestration for the win! I live on the Fedora SilverBlue OS. Ut
 Way too many to list... I'll let Hugo do it for me :wink:
 
 {{< tech >}}
+
 
 
