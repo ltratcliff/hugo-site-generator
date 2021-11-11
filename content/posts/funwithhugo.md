@@ -39,11 +39,41 @@ So. Many. Options.
 The quickstart recommends ananke, and that's what I stuck with. If you go through the youtube
 link above, Mike uses his own theme to help explain some hugo concepts (list pages, single pages, etc.)
 
+## Developement
+
+The easiest way to see your changes in real time is to use:
+
+```bash
+hugo -D serve
+```
+
+This will open a socket on [http://localhost:1313](http://localhost:1313)
+
+ > Changes made to the source code will reflect in real time (without the need to refresh)
+
 ## Archetypes
+
+Archtypes are great for automating the front-matter (top metadata on posts above the ---)
+I created one archtype to auto populate author, toc and tags for posts
+
+This is created by creating a .md file in the archetypes dir with a name matching the folder used in new posts
+ie: `archetypes -> posts.md` will match any new post created by `hugo new posts/whatever.md`
+
+![](/images/fun_with_hugo/archetypes.png)
+
+This make ensure all new posts created with `hugo new posts/article.md` will have that front-matter
 
 ## Content
 
+This directory contains other directories and markdown files for content
+
+![](/images/fun_with_hugo/content-tree.png)
+
 ## Layouts (aka Templates)
+
+These HTML templates make it easy to inject reusable html (think style, header, footer, etc.) 
+ into single pages and lists as well as static HTML (and go templating) into individual .md files
+
 
 ### Partials
 
@@ -51,7 +81,48 @@ link above, Mike uses his own theme to help explain some hugo concepts (list pag
 
 ## Public
 
+The public directory contains all of the files needed for your static site. These can placed in your httpd/nginx/etc. directory for serving.
+
+These files are built using:
+```bash
+hugo
+# or to build draft posts
+hugo -D
+```
+
 ## Static
+
+Static contains objects contained on your pages (ie: images, css, etc.)
+
+When placing images, javascript, etc. You can reference in your markdown/html like so.
+
+For a dir structure like this:
+
+![](/images/fun_with_hugo/static-tree.png)
+
+
+Image example in markdown:
+
+```md
+![](/images/fun_with_hugo/content-tree.png)
+```
+
+Javascript example in partial html:
+
+```html
+<script src="/js/wordcloud2.js"></script>
+
+<div id="tag-wrapper" style="width: 100%; height: 400px;"></div>
+<script>
+    WordCloud(document.querySelector("#tag-wrapper"), {
+        list: tagArray,
+        drawOutOfBounds: false,
+        shrinkToFit: true,
+    });
+</script>
+```
+
+
 
 ## Data
 
