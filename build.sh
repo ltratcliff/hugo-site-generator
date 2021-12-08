@@ -1,2 +1,2 @@
 #!/bin/bash
-hugo -D -d /home/ltratcliff/scripts/github.io/ltratcliff.github.io/
+hugo -d /home/ltratcliff/scripts/github.io/ltratcliff.github.io/

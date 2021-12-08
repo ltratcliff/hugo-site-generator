@@ -1,7 +1,7 @@
 ---
 title: "Glances on SilverBlue after an update"
 date: 2021-11-11T19:08:27-05:00
-draft: true
+draft: false
 author: "Tom Ratcliff"
 toc: true
 tags: ["glances", "python", "silverblue"]
