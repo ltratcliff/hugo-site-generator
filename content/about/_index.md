@@ -29,5 +29,10 @@ Way too many to list... I'll let Hugo do it for me :wink:
 
 {{< tech >}}
 
+---
+
+# [Resume](/pdfs/LRatcliff_Resume.pdf)
+
+![](/pdfs/LRatcliff_Resume.pdf)
 
 
