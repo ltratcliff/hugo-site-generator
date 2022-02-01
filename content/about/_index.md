@@ -34,5 +34,5 @@ Way too many to list... I'll let Hugo do it for me :wink:
 # [Resume](/pdfs/LRatcliff_Resume.pdf)
 
 
-<iframe src="/pdfs/LRatcliff_Resume.pdf" width="962px" height="865px" frameborder="0"></iframe>
+<iframe src="/pdfs/LRatcliff_Resume.pdf" width="820px" height="865px" frameborder="0"></iframe>
 
