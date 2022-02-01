@@ -34,3 +34,6 @@ enableEmoji = true
   #body_classes = "avenir bg-moon-gray"
   featured_image = "/images/sugarshack.jpg"
   recent_posts_number = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
