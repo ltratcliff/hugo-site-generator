@@ -34,5 +34,9 @@ Way too many to list... I'll let Hugo do it for me :wink:
 # [Resume](/pdfs/LRatcliff_Resume.pdf)
 
 
+<div class="flex-ns flex-wrap justify-around mt5">
+      
 <iframe src="/pdfs/LRatcliff_Resume.pdf" width="820px" height="865px" frameborder="0"></iframe>
+
+</div>
 
