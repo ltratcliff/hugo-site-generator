@@ -8,6 +8,8 @@ Paginate = 6 # this is set low for demonstrating with dummy content. Set to a hi
 enableRobotsTXT = true
 enableEmoji = true
 
+#googleAnalytics = "G-H9T1HNDM5K"
+
 
 [sitemap]
   changefreq = "monthly"
@@ -15,6 +17,7 @@ enableEmoji = true
   filename = "sitemap.xml"
 
 [params]
+  googleAnalyticsID = "G-H9T1HNDM5K"
   author = "Tom Ratcliff"
   favicon = "images/logo.png"
   #site_logo = "images/logo.png"
