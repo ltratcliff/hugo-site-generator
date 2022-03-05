@@ -8,8 +8,8 @@ jobs:
         uses: actions/checkout@v2
 
       #(Optional) If you have the theme added as submodule and Update theme step(next step) is not working then delete themes directory
-      - name: Clone theme
-        run: git submodule add --depth=1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 
+      #- name: Clone theme
+      #  run: git submodule add --depth=1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke 
 
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
