@@ -7,6 +7,10 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
+      #(Optional) If you have the theme added as submodule and Update theme step(next step) is not working then delete themes directory
+      - name: Clone theme
+        run: git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git --depth=1
+
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
         run: git submodule update --init --recursive
