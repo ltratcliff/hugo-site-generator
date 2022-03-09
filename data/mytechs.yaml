@@ -4,16 +4,24 @@ techs:
    AWS: 20
    Bash: 20
    C: 20
+   CI/CD: 20
    D3: 10
    Dash: 10
    Databricks: 30
    Debian: 10
    DeltaLake: 20
+   Django: 10
    Docker: 40
-   ELK (Elastic, Logstash, Kibana): 10
+   ELK: 10
    Fedora: 30
+   Flask: 20
+   Flux: 10
+   git: 30
+   GitLab: 30
+   GitOps: 20
    Golang: 60
    Grafana: 30
+   Gunicorn: 10
    Helm: 30
    Hugo: 30 
    HTML: 10
@@ -24,13 +32,18 @@ techs:
    Kubernetes: 40
    Loki: 10
    Matplotlib: 10
+   Mongo: 10
    MySQL/MariaDB: 10
    Nodejs: 10
    Numpy: 10
+   OAuth: 10
+   OpenID: 10
    OpenShift: 20
    Pandas: 10
    Perl: 20
+   Plotly: 10
    Podman: 30
+   Postgres: 20
    Prometheus: 30
    Python: 70
    PySpark: 30
