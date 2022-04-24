@@ -1,6 +1,6 @@
 ---
 title: "Media Backup"
-date: 2022-01-23T08:55:17-04:00
+date: 2022-03-23T08:55:17-04:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
@@ -52,6 +52,22 @@ ls -1 *VOB | tr '\n' '|'
 ffmpeg -i concat:"VTS_01_1.VOB|VTS_02_1.VOB|VTS_03_1.VOB|VTS_04_1.VOB|VTS_05_1.VOB|VTS_06_1.VOB|VTS_07_1.VOB|VTS_08_1.VOB|VTS_09_1.VOB|VTS_10_1.VOB|VTS_11_1.VOB|VTS_12_1.VOB|VTS_13_1.VOB|VTS_14_1.VOB|VTS_15_1.VOB|VTS_16_1.VOB|VTS_17_1.VOB" -c:a copy -c:v libx265 -preset ultrafast -crf 21 ~/mycoolvid.mkv
 ```
 ![Imgur](https://i.imgur.com/t6TKLqk.png)
+
+**Script to bulk process**
+> :warning: this will remove the original content (copy of mkv)
+```bash
+#!/bin/bash
+IFS=$'\n'
+for i in $(find . -iname '*mkv'); do
+  ffmpeg -i $i -target ntsc-dvd movie.mp4
+  dvdauthor --title --video=ntsc -o dvd -f movie.mp4
+  dvdauthor -o dvd -T
+  mkisofs -dvd-video -o "${i%.mkv}.iso" dvd/
+  rm -r dvd
+  rm $i
+  rm movie.mp4
+done
+```
 
 ## Backup Media from Filesytem to DVD
 
