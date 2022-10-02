@@ -5,16 +5,16 @@ draft: false
 ---
 
 # About me
-Born in Miami Florida and raised in Fort Lauderdale. After High-School I went to FSU to study computer science.
+Born in Miami Florida and raised in Fort Lauderdale. After High-School at American Heritage I went to Florida State Universtiy to study computer science.
 
-After four years of study I left FSU and joined the Marines. In the Marines I worked on electronic equiptment for a SIGINT Battalion.
+After four years of study I left FSU and joined the Marine Corps. In the Marines I worked in the inteligence field supporting RF electronic equiptment and software for the 1st Radio Battalion. We supported the SIGINT community providing resources for our greater intelligence community. Forever grateful for the everlasting relationships developed during this time in my life. 
 
 After the Marines I became a defense contractor and started working as Systems Administrator for an AirForce GEOINT squadron in the AF-DCGS.
 I did this for 10 years where I worked with some of the smartest people in my career. We got to travel the world with this job, 
 and I am forever thankful for that experience
 
 After years of working in the DCGS, I moved down to Tampa Florida to work for CENTCOM and SOCOM. I currently work with the
-Command Data Office (CDO) on all things related to AI/ML.
+Command Digital and Artifical Intelligence Office (CDAO) on all things related to AI/ML.
 
 # Code
 I love to code in Python, Golang, Angular (typescript), Java and C.
