@@ -29,7 +29,7 @@ techs:
    Javascript: 20
    JSON: 10
    Jupyter: 20
-   Kubernetes: 40
+   Kubernetes: 50
    Loki: 10
    Matplotlib: 10
    Mongo: 10
@@ -51,10 +51,11 @@ techs:
    RStudio: 20
    RShiny: 20
    Rstudio Package Manager: 10
+   Rust: 30
    SilverBlue: 10
    Splunk: 20
    SQL: 10
-   Teraform: 10
+   Teraform: 20
    Tower: 10
    TypeScript: 20
    YAML: 10
