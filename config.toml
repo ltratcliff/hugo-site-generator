@@ -45,6 +45,6 @@ enableEmoji = true
 
 [services]
   [services.disqus]
-    shortname = 'disqus_1LO0YJVLTk'
+    shortname = 'ltratcliff-com'
 
 
