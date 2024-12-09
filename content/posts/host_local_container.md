@@ -4,6 +4,7 @@ date: 2024-12-07T13:29:00-04:00
 draft: true
 author: "Tom Ratcliff"
 toc: true
+summary: Host an NGINX container locally for remote viewing
 tags: ["Containers", "Podman", "Docker"]
 categories: ["Web", "Containers"]
 ---
@@ -16,7 +17,6 @@ categories: ["Web", "Containers"]
 4. [Forward Port on Router](#forward-ports)
 5. [Register CNAME with Registrar](#register-website-cname-with-domain-registrar)
 6. [Test Connectivity](#test-external-connectivity)
-7. [Bonus: Add TLS](#bonus-setup-tls)
 
 
 ## Create a Simple Nginx Container
@@ -94,7 +94,7 @@ Now to make and serve a container
 ## Serve our container
 
 ```shell
-docker run --rm -it -p 8000:80 mycoolcontainer
+docker run --rm -it -p 8080:80 mycoolcontainer
 ```
 
 ![img.png](/images/host_local_container/img4.png)
@@ -130,7 +130,7 @@ Open ports are shown on the "ports:" line.
 
 If you need to open the ports, you can accomplish (on linux) with:
 ```shell
-sudo firewall-cmd --permanent --add-port=8000/tcp
+sudo firewall-cmd --permanent --add-port=8080/tcp
 sudo firewall-cmd --reload
 ```
 
@@ -140,7 +140,16 @@ This will differ per router, but the options and configuration should be similar
 
 Going to show the setup on Eero (just switched from pfsense)
 
-[//]: # (TODO: Eero screenshots for reservation and port forward)
+> A reservation is required to add a firewall rule
+
+1. From the eero app select Settings -> Network Settings -> Reservations & Port Forwarding -> Add a reservation
+2. Select the device you want to port forward to and save
+3. Now select "Open a port"
+4. Fill out the form with a name, port, internal port (8080) [see below]
+5. Save
+
+![img.png](/images/host_local_container/img6.png)
+
 
 ## Register Website CNAME with Domain Registrar
 
@@ -154,7 +163,7 @@ But for now, will show how to setup a DNS CNAME addition in Cloudflare.
 
 [//]: # (TODO: Show screenshot of apps.ltratcliff.com)
 
-## Bonus: Setup TLS
+[//]: # (## Bonus: Setup TLS)
 
 [//]: # (TODO: scripts to create cert.key and cert.crt)
 [//]: # (TODO: Show nginx edits for TLS)
