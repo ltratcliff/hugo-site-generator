@@ -1,7 +1,7 @@
 ---
 title: "Host a Local Container Externally"
 date: 2024-12-07T13:29:00-04:00
-draft: true
+draft: false
 author: "Tom Ratcliff"
 toc: true
 summary: Host an NGINX container locally for remote viewing
@@ -157,9 +157,25 @@ My domain _was_ managed through google domains until a few months ago when it me
 to squarespace. I have since offloaded my DNS to Cloudflare (which is a whole seperate writeup)
 But for now, will show how to setup a DNS CNAME addition in Cloudflare.
 
-[//]: # (TODO: Screenshots for cloudfare DNS)
+Under your Cloudflare website -> DNS select add record
+
+![img.png](/images/host_local_container/img7.png)
+
+> Make to point your CNAME to your A record (which is defined to your public external IP (can get this on whatismyip.com))
+
+ie: ![img.png](/images/host_local_container/img8.png)
+
+now mycoolapp.yourdomain.com should resolve with nslookup.
+
+```shell
+nslookup mycoolapp.ltratcliff.com
+```
+![img.png](/images/host_local_container/img9.png)
 
 ## Test External Connectivity
+
+If all went well, you should be able to hit your app from your browser
+![img.png](/images/host_local_container/img10.png)
 
 [//]: # (TODO: Show screenshot of apps.ltratcliff.com)
 
