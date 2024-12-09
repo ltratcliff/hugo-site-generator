@@ -32,7 +32,7 @@ enableEmoji = true
   new_window_icon = true
   networks = [
     "facebook",
-    "twitter",
+    "x-twitter",
     "linkedin",
     "stackoverflow",
     "github",
@@ -41,7 +41,7 @@ enableEmoji = true
 
 [params.ananke.social.facebook]
 username = "ltratcliff"
-[params.ananke.social.twitter]
+[params.ananke.social.x-twitter]
 username = "ltratcliff"
 [params.ananke.social.linkedin]
 username = "ltratcliff"
@@ -58,7 +58,7 @@ sharetext = true
 networks = [
   "email",
   "facebook",
-  "twitter",
+  "x-twitter",
   "linkedin"
 ]
 
