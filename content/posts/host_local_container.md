@@ -174,7 +174,7 @@ nslookup mycoolapp.ltratcliff.com
 
 ## Test External Connectivity
 
-If all went well, you should be able to hit your app from your browser
+If all went well, you should be able to hit your container externally from your browser
 ![img.png](/images/host_local_container/img10.png)
 
 [//]: # (TODO: Show screenshot of apps.ltratcliff.com)
@@ -190,6 +190,6 @@ If all went well, you should be able to hit your app from your browser
 
 :tada::tada::tada:
 
-That's it! We have successfully deployed our Application in Azure App Services :tada:
+That's it! We have successfully deployed a local container accessible to the :earth_americas:
 
 
