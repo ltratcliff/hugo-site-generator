@@ -4,6 +4,7 @@ date: 2022-06-26T10:23:29-04:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
+summary: Use Azure to host your containers
 tags: ["Azure", "AKS"]
 categories: ["Cloud"]
 ---

@@ -4,6 +4,7 @@ date: 2022-04-05T21:05:08-04:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
+summary: How to leverage AWS ECS for hosting containerized apps
 tags: ["AWS", "ECS", "ECR"]
 categories: ["AWS"]
 ---

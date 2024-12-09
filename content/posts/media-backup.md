@@ -4,6 +4,7 @@ date: 2022-03-23T08:55:17-04:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
+summary: Store and copy your DVDs for archival
 tags: ["media", "dvd", "ffmpeg"]
 categories: ["Backup"]
 ---

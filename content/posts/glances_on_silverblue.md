@@ -4,6 +4,7 @@ date: 2021-11-11T19:08:27-05:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
+summary: Work around immutable OSes
 tags: ["glances", "python", "silverblue"]
 categories: ["fedora", "silverblue"]
 ---

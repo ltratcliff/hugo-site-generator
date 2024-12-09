@@ -4,6 +4,7 @@ date: 2021-11-06T13:40:19-04:00
 draft: false
 author: "Tom Ratcliff"
 toc: true
+summary: Getting started with Hugo
 tags: ["golang", "hugo"]
 categories: ["golang"]
 var: "test"
